@@ -7,16 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		67B33F093C0C141E9230349C /* Pods_pagination_demoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDBC1DA9D332E74236351C5 /* Pods_pagination_demoUITests.framework */; };
 		8C32D409623A4A17042FD830 /* Pods_pagination_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1254547B07E2B4C8F73631 /* Pods_pagination_demo.framework */; };
-		8C43265B4825AFF40E249DB7 /* Pods_pagination_demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7A091D7F15372C150FA62E /* Pods_pagination_demoTests.framework */; };
 		A14507B7233F8EE60057AD11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14507B6233F8EE60057AD11 /* AppDelegate.swift */; };
 		A14507BB233F8EE60057AD11 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14507BA233F8EE60057AD11 /* HomeViewController.swift */; };
 		A14507BE233F8EE60057AD11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14507BC233F8EE60057AD11 /* Main.storyboard */; };
 		A14507C0233F8EE80057AD11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14507BF233F8EE80057AD11 /* Assets.xcassets */; };
 		A14507C3233F8EE80057AD11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14507C1233F8EE80057AD11 /* LaunchScreen.storyboard */; };
-		A14507CE233F8EE80057AD11 /* pagination_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14507CD233F8EE80057AD11 /* pagination_demoTests.swift */; };
-		A14507D9233F8EE80057AD11 /* pagination_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14507D8233F8EE80057AD11 /* pagination_demoUITests.swift */; };
 		A14507EF233F90430057AD11 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14507EE233F90430057AD11 /* HomeViewModel.swift */; };
 		A14507F1233F90630057AD11 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14507F0233F90630057AD11 /* BaseModel.swift */; };
 		A14507F5233F90F30057AD11 /* Decoerable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14507F4233F90F30057AD11 /* Decoerable.swift */; };
@@ -44,17 +40,12 @@
 		A1A09B44233FD09E00C3EF5B /* RepositoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1A09B40233FD09E00C3EF5B /* RepositoryCell.xib */; };
 		A1A09B46233FD1A600C3EF5B /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A09B45233FD1A600C3EF5B /* BaseViewModel.swift */; };
 		A1A09B48233FDD9400C3EF5B /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A09B47233FDD9400C3EF5B /* ViewModelType.swift */; };
+		A1A8914F233FFB69009184C0 /* DataTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8914E233FFB69009184C0 /* DataTest.swift */; };
+		A1E9F204233FF8460002F003 /* pagination_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E9F203233FF8460002F003 /* pagination_demoTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A14507CA233F8EE80057AD11 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A14507AB233F8EE60057AD11 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A14507B2233F8EE60057AD11;
-			remoteInfo = "pagination-demo";
-		};
-		A14507D5233F8EE80057AD11 /* PBXContainerItemProxy */ = {
+		A1E9F206233FF8460002F003 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A14507AB233F8EE60057AD11 /* Project object */;
 			proxyType = 1;
@@ -79,12 +70,6 @@
 		A14507BF233F8EE80057AD11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A14507C2233F8EE80057AD11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A14507C4233F8EE80057AD11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A14507C9233F8EE80057AD11 /* pagination-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pagination-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A14507CD233F8EE80057AD11 /* pagination_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pagination_demoTests.swift; sourceTree = "<group>"; };
-		A14507CF233F8EE80057AD11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A14507D4233F8EE80057AD11 /* pagination-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pagination-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A14507D8233F8EE80057AD11 /* pagination_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pagination_demoUITests.swift; sourceTree = "<group>"; };
-		A14507DA233F8EE80057AD11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A14507EE233F90430057AD11 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		A14507F0233F90630057AD11 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		A14507F4233F90F30057AD11 /* Decoerable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoerable.swift; sourceTree = "<group>"; };
@@ -112,6 +97,12 @@
 		A1A09B40233FD09E00C3EF5B /* RepositoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RepositoryCell.xib; sourceTree = "<group>"; };
 		A1A09B45233FD1A600C3EF5B /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		A1A09B47233FDD9400C3EF5B /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		A1A8914E233FFB69009184C0 /* DataTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTest.swift; sourceTree = "<group>"; };
+		A1E9F201233FF8460002F003 /* pagination-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pagination-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E9F203233FF8460002F003 /* pagination_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pagination_demoTests.swift; sourceTree = "<group>"; };
+		A1E9F205233FF8460002F003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1E9F211233FF8520002F003 /* pagination_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pagination_demoUITests.swift; sourceTree = "<group>"; };
+		A1E9F213233FF8520002F003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC1CA12ACAC82E683FA7F48C /* Pods-pagination-demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pagination-demoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pagination-demoUITests/Pods-pagination-demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,19 +115,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A14507C6233F8EE80057AD11 /* Frameworks */ = {
+		A1E9F1FE233FF8460002F003 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C43265B4825AFF40E249DB7 /* Pods_pagination_demoTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A14507D1233F8EE80057AD11 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				67B33F093C0C141E9230349C /* Pods_pagination_demoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,8 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				A14507B5233F8EE60057AD11 /* pagination-demo */,
-				A14507CC233F8EE80057AD11 /* pagination-demoTests */,
-				A14507D7233F8EE80057AD11 /* pagination-demoUITests */,
+				A1E9F202233FF8460002F003 /* pagination-demoTests */,
+				A1E9F210233FF8520002F003 /* pagination-demoUITests */,
 				A14507B4233F8EE60057AD11 /* Products */,
 				BE86F7D8DFF0C52DD3ABF7C4 /* Pods */,
 				AD16101C345011A40E7FEC05 /* Frameworks */,
@@ -159,8 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				A14507B3233F8EE60057AD11 /* pagination-demo.app */,
-				A14507C9233F8EE80057AD11 /* pagination-demoTests.xctest */,
-				A14507D4233F8EE80057AD11 /* pagination-demoUITests.xctest */,
+				A1E9F201233FF8460002F003 /* pagination-demoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -181,24 +162,6 @@
 				A14507C4233F8EE80057AD11 /* Info.plist */,
 			);
 			path = "pagination-demo";
-			sourceTree = "<group>";
-		};
-		A14507CC233F8EE80057AD11 /* pagination-demoTests */ = {
-			isa = PBXGroup;
-			children = (
-				A14507CD233F8EE80057AD11 /* pagination_demoTests.swift */,
-				A14507CF233F8EE80057AD11 /* Info.plist */,
-			);
-			path = "pagination-demoTests";
-			sourceTree = "<group>";
-		};
-		A14507D7233F8EE80057AD11 /* pagination-demoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A14507D8233F8EE80057AD11 /* pagination_demoUITests.swift */,
-				A14507DA233F8EE80057AD11 /* Info.plist */,
-			);
-			path = "pagination-demoUITests";
 			sourceTree = "<group>";
 		};
 		A14507E6233F8FB70057AD11 /* Utilities */ = {
@@ -311,6 +274,25 @@
 			path = xib;
 			sourceTree = "<group>";
 		};
+		A1E9F202233FF8460002F003 /* pagination-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1E9F203233FF8460002F003 /* pagination_demoTests.swift */,
+				A1E9F205233FF8460002F003 /* Info.plist */,
+				A1A8914E233FFB69009184C0 /* DataTest.swift */,
+			);
+			path = "pagination-demoTests";
+			sourceTree = "<group>";
+		};
+		A1E9F210233FF8520002F003 /* pagination-demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1E9F211233FF8520002F003 /* pagination_demoUITests.swift */,
+				A1E9F213233FF8520002F003 /* Info.plist */,
+			);
+			path = "pagination-demoUITests";
+			sourceTree = "<group>";
+		};
 		AD16101C345011A40E7FEC05 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -356,43 +338,23 @@
 			productReference = A14507B3233F8EE60057AD11 /* pagination-demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A14507C8233F8EE80057AD11 /* pagination-demoTests */ = {
+		A1E9F200233FF8460002F003 /* pagination-demoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A14507E0233F8EE80057AD11 /* Build configuration list for PBXNativeTarget "pagination-demoTests" */;
+			buildConfigurationList = A1E9F208233FF8460002F003 /* Build configuration list for PBXNativeTarget "pagination-demoTests" */;
 			buildPhases = (
-				68A7FDCC9BD6BCEF5E862A3E /* [CP] Check Pods Manifest.lock */,
-				A14507C5233F8EE80057AD11 /* Sources */,
-				A14507C6233F8EE80057AD11 /* Frameworks */,
-				A14507C7233F8EE80057AD11 /* Resources */,
+				A1E9F1FD233FF8460002F003 /* Sources */,
+				A1E9F1FE233FF8460002F003 /* Frameworks */,
+				A1E9F1FF233FF8460002F003 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A14507CB233F8EE80057AD11 /* PBXTargetDependency */,
+				A1E9F207233FF8460002F003 /* PBXTargetDependency */,
 			);
 			name = "pagination-demoTests";
 			productName = "pagination-demoTests";
-			productReference = A14507C9233F8EE80057AD11 /* pagination-demoTests.xctest */;
+			productReference = A1E9F201233FF8460002F003 /* pagination-demoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A14507D3233F8EE80057AD11 /* pagination-demoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A14507E3233F8EE80057AD11 /* Build configuration list for PBXNativeTarget "pagination-demoUITests" */;
-			buildPhases = (
-				42D05308C0746E8EA7924463 /* [CP] Check Pods Manifest.lock */,
-				A14507D0233F8EE80057AD11 /* Sources */,
-				A14507D1233F8EE80057AD11 /* Frameworks */,
-				A14507D2233F8EE80057AD11 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A14507D6233F8EE80057AD11 /* PBXTargetDependency */,
-			);
-			name = "pagination-demoUITests";
-			productName = "pagination-demoUITests";
-			productReference = A14507D4233F8EE80057AD11 /* pagination-demoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -407,11 +369,7 @@
 					A14507B2233F8EE60057AD11 = {
 						CreatedOnToolsVersion = 11.0;
 					};
-					A14507C8233F8EE80057AD11 = {
-						CreatedOnToolsVersion = 11.0;
-						TestTargetID = A14507B2233F8EE60057AD11;
-					};
-					A14507D3233F8EE80057AD11 = {
+					A1E9F200233FF8460002F003 = {
 						CreatedOnToolsVersion = 11.0;
 						TestTargetID = A14507B2233F8EE60057AD11;
 					};
@@ -431,8 +389,7 @@
 			projectRoot = "";
 			targets = (
 				A14507B2233F8EE60057AD11 /* pagination-demo */,
-				A14507C8233F8EE80057AD11 /* pagination-demoTests */,
-				A14507D3233F8EE80057AD11 /* pagination-demoUITests */,
+				A1E9F200233FF8460002F003 /* pagination-demoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -449,14 +406,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A14507C7233F8EE80057AD11 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A14507D2233F8EE80057AD11 /* Resources */ = {
+		A1E9F1FF233FF8460002F003 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -466,28 +416,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		42D05308C0746E8EA7924463 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-pagination-demoUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		47A81B08308B99124278CFC5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -522,28 +450,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pagination-demo/Pods-pagination-demo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		68A7FDCC9BD6BCEF5E862A3E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-pagination-demoTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		940D8CFE721729FE1A5549FE /* [CP] Check Pods Manifest.lock */ = {
@@ -606,34 +512,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A14507C5233F8EE80057AD11 /* Sources */ = {
+		A1E9F1FD233FF8460002F003 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A14507CE233F8EE80057AD11 /* pagination_demoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A14507D0233F8EE80057AD11 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A14507D9233F8EE80057AD11 /* pagination_demoUITests.swift in Sources */,
+				A1E9F204233FF8460002F003 /* pagination_demoTests.swift in Sources */,
+				A1A8914F233FFB69009184C0 /* DataTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A14507CB233F8EE80057AD11 /* PBXTargetDependency */ = {
+		A1E9F207233FF8460002F003 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A14507B2233F8EE60057AD11 /* pagination-demo */;
-			targetProxy = A14507CA233F8EE80057AD11 /* PBXContainerItemProxy */;
-		};
-		A14507D6233F8EE80057AD11 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A14507B2233F8EE60057AD11 /* pagination-demo */;
-			targetProxy = A14507D5233F8EE80057AD11 /* PBXContainerItemProxy */;
+			targetProxy = A1E9F206233FF8460002F003 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -784,9 +678,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.HNF.pagination-demo2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HNF.pagination-demo-task";
+				PRODUCT_NAME = "pagination-demo";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -804,23 +698,21 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.HNF.pagination-demo2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HNF.pagination-demo-task";
+				PRODUCT_NAME = "pagination-demo";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
-		A14507E1233F8EE80057AD11 /* Debug */ = {
+		A1E9F209233FF8460002F003 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E638AFADF35D5AB0DBB27DF /* Pods-pagination-demoTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T7ABKFTL2Z;
 				INFOPLIST_FILE = "pagination-demoTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -828,22 +720,22 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HNF.pagination-demoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pagination-demo.app/pagination-demo";
 			};
 			name = Debug;
 		};
-		A14507E2233F8EE80057AD11 /* Release */ = {
+		A1E9F20A233FF8460002F003 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D931ADC6FD8228B268A90D8 /* Pods-pagination-demoTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T7ABKFTL2Z;
 				INFOPLIST_FILE = "pagination-demoTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -851,51 +743,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HNF.pagination-demoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pagination-demo.app/pagination-demo";
-			};
-			name = Release;
-		};
-		A14507E4233F8EE80057AD11 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC1CA12ACAC82E683FA7F48C /* Pods-pagination-demoUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T7ABKFTL2Z;
-				INFOPLIST_FILE = "pagination-demoUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.HNF.pagination-demoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "pagination-demo";
-			};
-			name = Debug;
-		};
-		A14507E5233F8EE80057AD11 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CB904ED5B9B6518E5462535 /* Pods-pagination-demoUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T7ABKFTL2Z;
-				INFOPLIST_FILE = "pagination-demoUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.HNF.pagination-demoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "pagination-demo";
 			};
 			name = Release;
 		};
@@ -920,20 +772,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A14507E0233F8EE80057AD11 /* Build configuration list for PBXNativeTarget "pagination-demoTests" */ = {
+		A1E9F208233FF8460002F003 /* Build configuration list for PBXNativeTarget "pagination-demoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A14507E1233F8EE80057AD11 /* Debug */,
-				A14507E2233F8EE80057AD11 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A14507E3233F8EE80057AD11 /* Build configuration list for PBXNativeTarget "pagination-demoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A14507E4233F8EE80057AD11 /* Debug */,
-				A14507E5233F8EE80057AD11 /* Release */,
+				A1E9F209233FF8460002F003 /* Debug */,
+				A1E9F20A233FF8460002F003 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import pagination_demo
 
 class pagination_demoTests: XCTestCase {
 
@@ -26,7 +25,7 @@ class pagination_demoTests: XCTestCase {
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }
